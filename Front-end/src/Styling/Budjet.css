@@ -1,0 +1,27 @@
+.Budjet{
+    /* background-color: #f857f814; */
+    height: 100vh;
+  }
+  th,td{
+     padding-top: 0.5rem;
+     padding-bottom: 0.5rem;
+ }
+ .table-head{
+     background-color: #ff95ffc9;
+ }
+ .Budjet-heading{
+     color: #e800e8;
+     font-style: italic;
+     text-shadow: 2px 2px rgb(175 94 245 / 40%);
+ }
+ .month-selector{
+     margin-left: 50%;
+ }
+ .back-btn{
+     padding: 0.5rem;
+     text-decoration: none;
+ }
+ /* .total-expenses{
+    background-color: #d6338442;
+ } */
+ 
