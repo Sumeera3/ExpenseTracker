@@ -34,17 +34,6 @@ const Display = ({data1, Tbalance, design}) => {
     }, [Wbalance]);
 
 
-    // const [expenses,setExpenses] = useState(() => {
-    //     const totalExpenses = localStorage.getItem('expenses');
-    //     return totalExpenses? parseFloat(totalExpenses) : data1.wallet;
-    // });
-
-    // useEffect(() => {
-
-    //     localStorage.setItem('expenses', expenses);
-    // }, [expenses]);
-
-
 
     const Logout = () => {
         localStorage.removeItem("budjet");
@@ -61,7 +50,7 @@ const Display = ({data1, Tbalance, design}) => {
          const data=new FormData();
         data.append("Balance",balance);
         data.append("userId",data1._id);
-        const Response=await axios.post("http://localhost:3008/display/"+data1._id+"/"+balance,data,{header:{"content-type":"multipart/form-data"}})
+        const Response=await axios.post("https://expensetracker-backend-jzh9.onrender.com/display/"+data1._id+"/"+balance,data,{header:{"content-type":"multipart/form-data"}})
         if(Response){
             if(Response.data.status==='success'){
             const updatedBudget = Response.data.wallet;

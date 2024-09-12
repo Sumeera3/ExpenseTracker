@@ -21,7 +21,7 @@ function SignupPage() {
         data.append("Useranme",Username)
         data.append("Mobile",pnone_number)
         data.append("password",password)
-        const Response=await axios.post("http://localhost:3008/signup/"+first_name+"/"+last_name+"/"+email+"/"+Username+"/"+pnone_number+"/"+password,data,{header:{"content-type":"multipart/form-data"}})
+        const Response=await axios.post("https://expensetracker-backend-jzh9.onrender.com/signup/"+first_name+"/"+last_name+"/"+email+"/"+Username+"/"+pnone_number+"/"+password,data,{header:{"content-type":"multipart/form-data"}})
         if(Response){
            if(Response.data.status==="success"){
             setShowPopup(true);

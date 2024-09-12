@@ -9,7 +9,7 @@ console.log(data1)
     const fetchMonthlySums = async () => {
       const data=new FormData();
        data.append("userId",data1._id);
-        const Response=await axios.get("http://localhost:3008/display/"+data1._id,data,{header:{"content-type":"multipart/form-data"}})
+        const Response=await axios.get("https://expensetracker-backend-jzh9.onrender.com/display/"+data1._id,data,{header:{"content-type":"multipart/form-data"}})
         if(Response){
           console.log(Response)
           if (Response.data.status === 'success') {
