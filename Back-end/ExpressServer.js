@@ -14,7 +14,7 @@ const client = new MongoClient(uri, {
     deprecationErrors: true,
   }
 });
-app.listen(3008, () => {
+app.listen(process.env.PORT||3008, () => {
 
 
   app.get('/login/:Email/:password', (req, res) => {
