@@ -397,6 +397,16 @@
   margin-bottom: 100px;
   }
   
+  @media screen and (max-width: 800px) {
+    #main{
+      max-width: 100%;
+      flex-direction: column;
+    }
+    #h1{
+      width: 100%;
+      text-align: center;
+    }
   
+}
   
   
