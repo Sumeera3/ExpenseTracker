@@ -400,7 +400,7 @@
   
   @media screen and (max-width: 800px) {
     #main{
-       max-width: fit-content;
+        min-width: -webkit-fill-available;
         flex-direction: column;
         border-radius: unset;
         margin: 0px;
@@ -422,5 +422,7 @@
     #dis-flex {
       justify-content: center;
     }
-
+    #sign-out{
+      width: auto;
+    }
   }  
