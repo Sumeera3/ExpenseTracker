@@ -404,10 +404,16 @@
         border-radius: unset;
         margin: 0px;
         text-align: center;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
     }
     #h1{
       width: 100%;
       text-align: center;
+    }
+    #bottom-form{
+      align-items: flex-start;
     }
 
   }  
