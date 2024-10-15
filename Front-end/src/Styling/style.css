@@ -400,7 +400,10 @@
   @media screen and (max-width: 800px) {
     #main{
       max-width: 100%;
-      flex-direction: column;
+        flex-direction: column;
+        border-radius: unset;
+        margin: 0px;
+        text-align: center;
     }
     #h1{
       width: 100%;
