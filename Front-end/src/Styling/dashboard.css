@@ -1,6 +1,11 @@
 .left_section{
 
     width: 30%;
+    background-color: black;
+    color: white;
+}
+.middle{
+    width: 75%;
 }
 
 .font_size {
@@ -51,4 +56,48 @@
 }
 .wallet-btn{
     width: 10rem !important;
+}
+.balance{
+    margin-top: 2.7rem;
+}
+.tbudget{
+    margin-top: 2.5rem;
+}
+.img{
+    display: none;
+}
+.profile{
+    width: 17% !important;
+    display: none !important;
+}
+
+@media screen and (max-width:500px){
+    .left-side{
+       display: none;
+    }
+    .scrool{
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
+    .box1,.box2{
+        width: 50% !important;
+    }
+     .Right-side{
+        display: none;
+     }
+     .middle{
+        width: 100% !important;
+     }
+     .main{
+        height: 100vh;
+     }
+     .img{
+        width: 12%;
+        display: block !important;
+     }
+     .profile{
+        display: flex !important;
+     }
+    
 }

@@ -88,7 +88,7 @@ const AddNewTransactions = ({Tbudjet,data2,expenses_amount}) => {
                             <div id="user-image">
                                 <img id='userImage' src='' />
                             </div>
-                            <h1 id='h1' className='px-3'>Username</h1>
+                            <h1 id='h1' className='px-3'>{data2.Username}</h1>
                             <Link to="/display" className='px-5 pt-1 pb-1 font_color' id='sign-out'>Dashboard</Link>
                         </div>
                     </div>

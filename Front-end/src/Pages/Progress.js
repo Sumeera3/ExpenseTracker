@@ -26,7 +26,7 @@ console.log(data1)
   return (
     <>
       <h3 className='History text-center'>History</h3>
-      <ResponsiveContainer width="100%" aspect={3} className="mt-5 Graph">
+      <ResponsiveContainer width="100%"  aspect={2} className="mt-5 Graph">
         <LineChart data={monthlySums}>
           <CartesianGrid strokeDasharray="2 2" />
           <XAxis dataKey="month" />
