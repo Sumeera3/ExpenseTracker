@@ -36,9 +36,9 @@ function SignupPage() {
 
     return (
         <div className='d-flex'>
-            <img className='w-50' src="https://img.freepik.com/premium-vector/salary-payment-employee-workers-are-happy-receive-monthly-salary-people-calculating-money_566886-10737.jpg"></img>
+            <img className='w-50 signup_img' src="https://img.freepik.com/premium-vector/salary-payment-employee-workers-are-happy-receive-monthly-salary-people-calculating-money_566886-10737.jpg"></img>
 
-            <div className="col-4 rounded mx-auto border bg-danger-subtle mt-3 p-3">
+            <div className=" rounded mx-auto border bg-danger-subtle mt-3 p-3 signup_box">
                 <h3 className="mb-4 text-primary  text-center">Signup</h3>
 
                 {/* <form method='get' action='http://localhost:3008/signup'> */}

@@ -55,11 +55,20 @@
 .login_box{
   width: 35%;
 }
+.signup_box{
+  width: 30%;
+}
 
 @media screen and (max-width:700px){
   .login_box{
 
     width:80%;
+  }
+  .signup_img{
+    display: none !important;
+  }
+  .signup_box{
+    width: 60%;
   }
 }
 @keyframes slideDown {
