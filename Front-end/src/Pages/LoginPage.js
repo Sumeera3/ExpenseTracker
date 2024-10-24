@@ -28,7 +28,7 @@ function LoginPage() {
     return (
         <div className="">
             <div className="backimg d-flex align-items-center">
-                <div className="col-4 rounded mx-auto border border-danger-subtle shadow p-4">
+                <div className="rounded mx-auto border border-danger-subtle shadow p-4 login_box">
 
                     <h3 className="mb-4 text-danger-emphasis text-center">Sign in</h3>
                     {/* <form method="get" action="http://localhost:3008/login"> */}

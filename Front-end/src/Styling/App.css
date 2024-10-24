@@ -52,7 +52,16 @@
     animation: slideDown 0.5s forwards;
     z-index: 9999;
 }
+.login_box{
+  width: 35%;
+}
 
+@media screen and (max-width:700px){
+  .login_box{
+
+    width:80%;
+  }
+}
 @keyframes slideDown {
     from {
         top: -100px; /* Off-screen */
